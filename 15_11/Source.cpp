@@ -12,7 +12,8 @@ int main()
 
     printf("Enter size of array: ");
     scanf_s("%d", &size);
-    if (!(size <=100)| (size <1 )) {
+    if (!(size <=100)||(size <1 )) {
+        printf("\nSIZE ERROR!!!\n");
         return 0;
     }
 
